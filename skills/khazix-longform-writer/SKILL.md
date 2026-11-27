@@ -1,7 +1,7 @@
 ---
 name: khazix-longform-writer
 description: >-
-  Distilled long-form Chinese writing skill modeled on the 2026 184-article
+  Distilled long-form Chinese writing skill modeled on the 2026 187-article
   empirical corpus of Khazix (@Khazix0918) for X Articles and WeChat Official
   Account essays. Use when the user asks to write, rewrite, or de-AI-ify a
   long-form Chinese tech/AI review, tutorial, workflow retrospective, industry
@@ -38,8 +38,10 @@ description: >-
 根據題材選擇骨架（詳見 `references/templates-and-checklists.md`）：
 
 - **新品首發實測 / 個人系統復盤 / 保姆級教程**：
-  - 開頭 4 句直擊時間現場或評論區追問 → 一句短口令切入正題（`那，咱們開始吧。` / `那一個一個說吧。` / `話不多說，我們直接開始。`）→ 使用清晰的 `一、二、三、`（或 `## 一、...`）分段 → 獨立末節 `寫在最後`。
+  - 開頭 4 句直擊時間現場或評論區追問（實測黑馬產品時可用「抱著純看笑話、零預期的心態開測 → 結果被打臉真香」欲揚先抑破冰；涉及收費或變現教程時，先用「我不道德綁架別人為愛發電」做反何不食肉糜共情）→ 一句短口令切入正題（`那，咱們開始吧。` / `那一個一個說吧。` / `話不多說，我們直接開始。`）→ 使用清晰的 `一、二、三、`（或 `## 1. ...`）分段 → 獨立末節 `寫在最後`（必誠實點出目前最大瑕疵，拒絕純吹公關腔）。
   - 每節遵循：**痛快先給判斷 → 擺出具體案例／原話／數據（貼完長段英文或原件後必跟一句「說人話就是……」）→ 用一句短話扣回主線**。
+- **好書／經典方法論「Prompt 資產化」轉譯文**：
+  - 讀完一本好書或名校公開課（如《人生設計課》《人生意義設計課》），不寫傳統讀書筆記，而是提煉書中核心診斷框架並封裝成一段讀者可直接複製運行的交互式 AI Prompt，文末收束於「答案其實一直都在你自己身上」。
 - **人物專訪 / 行業深度觀察 / 個人成長敘事**：
   - 可用極簡六字起筆（`故事是這樣的。`）或具體場景入場，拿掉生硬編號，用口語轉場自然流淌推進，靠人物細節與歷史／文化參照層層剝開。
 
